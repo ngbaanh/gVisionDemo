@@ -1,0 +1,6 @@
+framework module Pods_gVisionDemo {
+  umbrella header "Pods-gVisionDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
