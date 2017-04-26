@@ -13,7 +13,6 @@
 		121F951D1EB09B2C00918F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121F951B1EB09B2C00918F58 /* LaunchScreen.storyboard */; };
 		125A1E3D1EB09BD600CC72B9 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E391EB09BD600CC72B9 /* ApiKey.swift */; };
 		125A1E3E1EB09BD600CC72B9 /* MyImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E3A1EB09BD600CC72B9 /* MyImageData.swift */; };
-		125A1E3F1EB09BD600CC72B9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E3B1EB09BD600CC72B9 /* TestViewController.swift */; };
 		125A1E401EB09BD600CC72B9 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E3C1EB09BD600CC72B9 /* TextViewController.swift */; };
 		125A1E4E1EB09BEB00CC72B9 /* AnnotateImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E411EB09BEB00CC72B9 /* AnnotateImageRequest.swift */; };
 		125A1E4F1EB09BEB00CC72B9 /* AnnotateImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E421EB09BEB00CC72B9 /* AnnotateImageResponse.swift */; };
@@ -28,6 +27,7 @@
 		125A1E581EB09BEB00CC72B9 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E4B1EB09BEB00CC72B9 /* Status.swift */; };
 		125A1E591EB09BEB00CC72B9 /* TextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E4C1EB09BEB00CC72B9 /* TextAnnotation.swift */; };
 		125A1E5A1EB09BEB00CC72B9 /* WebDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E4D1EB09BEB00CC72B9 /* WebDetection.swift */; };
+		125A1E5C1EB09DE700CC72B9 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A1E5B1EB09DE700CC72B9 /* FaceViewController.swift */; };
 		DC1B597858E3B1853D87DF0E /* Pods_gVisionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C26889BEDC97FB48804BC /* Pods_gVisionDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 		121F951E1EB09B2C00918F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		125A1E391EB09BD600CC72B9 /* ApiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
 		125A1E3A1EB09BD600CC72B9 /* MyImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImageData.swift; sourceTree = "<group>"; };
-		125A1E3B1EB09BD600CC72B9 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		125A1E3C1EB09BD600CC72B9 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		125A1E411EB09BEB00CC72B9 /* AnnotateImageRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnotateImageRequest.swift; path = GoogleVision/AnnotateImageRequest.swift; sourceTree = "<group>"; };
 		125A1E421EB09BEB00CC72B9 /* AnnotateImageResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnotateImageResponse.swift; path = GoogleVision/AnnotateImageResponse.swift; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		125A1E4B1EB09BEB00CC72B9 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Status.swift; path = GoogleVision/Status.swift; sourceTree = "<group>"; };
 		125A1E4C1EB09BEB00CC72B9 /* TextAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextAnnotation.swift; path = GoogleVision/TextAnnotation.swift; sourceTree = "<group>"; };
 		125A1E4D1EB09BEB00CC72B9 /* WebDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebDetection.swift; path = GoogleVision/WebDetection.swift; sourceTree = "<group>"; };
+		125A1E5B1EB09DE700CC72B9 /* FaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		C20B66ACDB0AE9FA88CBD3DD /* Pods-gVisionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gVisionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-gVisionDemo/Pods-gVisionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F01E3838B4DD10FF9AAFD393 /* Pods-gVisionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gVisionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gVisionDemo/Pods-gVisionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FC6C26889BEDC97FB48804BC /* Pods_gVisionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gVisionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,8 +105,8 @@
 				121F95121EB09B2C00918F58 /* AppDelegate.swift */,
 				125A1E391EB09BD600CC72B9 /* ApiKey.swift */,
 				125A1E3A1EB09BD600CC72B9 /* MyImageData.swift */,
-				125A1E3B1EB09BD600CC72B9 /* TestViewController.swift */,
 				125A1E3C1EB09BD600CC72B9 /* TextViewController.swift */,
+				125A1E5B1EB09DE700CC72B9 /* FaceViewController.swift */,
 				121F95161EB09B2C00918F58 /* Main.storyboard */,
 				121F95191EB09B2C00918F58 /* Assets.xcassets */,
 				121F951B1EB09B2C00918F58 /* LaunchScreen.storyboard */,
@@ -270,6 +270,7 @@
 			files = (
 				125A1E551EB09BEB00CC72B9 /* Landmark.swift in Sources */,
 				125A1E401EB09BD600CC72B9 /* TextViewController.swift in Sources */,
+				125A1E5C1EB09DE700CC72B9 /* FaceViewController.swift in Sources */,
 				125A1E5A1EB09BEB00CC72B9 /* WebDetection.swift in Sources */,
 				125A1E521EB09BEB00CC72B9 /* EntityAnnotation.swift in Sources */,
 				125A1E531EB09BEB00CC72B9 /* FaceAnnotation.swift in Sources */,
@@ -282,7 +283,6 @@
 				125A1E4F1EB09BEB00CC72B9 /* AnnotateImageResponse.swift in Sources */,
 				125A1E541EB09BEB00CC72B9 /* ImageProperties.swift in Sources */,
 				125A1E581EB09BEB00CC72B9 /* Status.swift in Sources */,
-				125A1E3F1EB09BD600CC72B9 /* TestViewController.swift in Sources */,
 				125A1E3E1EB09BD600CC72B9 /* MyImageData.swift in Sources */,
 				125A1E501EB09BEB00CC72B9 /* BoundingPoly.swift in Sources */,
 				125A1E571EB09BEB00CC72B9 /* SafeSearchAnnotation.swift in Sources */,
